@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">My_Cars_Application</string>
+    <string name="identify_car_image">Identify Car Image</string>
+    <string name="advanced_level">Advanced Level</string>
+    <string name="hints">Hints</string>
+    <string name="identify_car_make">Identify Car Make</string>
+    <string name="back">Back</string>
+    <string name="car_images">Car Images</string>
+    <string name="next">Next</string>
+    <string name="enter_answer">Enter answer</string>
+    <string name="submit">Submit</string>
+
+
+    <string-array name= "c_names">
+        <item> -- </item>
+        <item>Audi A7</item>
+        <item>Audi RS7</item>
+        <item>GTR R35</item>
+        <item>Hyundai Sonata</item>
+        <item>Lamborghini Aventador</item>
+        <item>Lamborghini Sian</item>
+        <item>Mazda CX5</item>
+        <item>Mazda Miata</item>
+        <item>Mercedes Benz AG</item>
+        <item>Mercedes G63 AMG</item>
+        <item>Nissan Bluebird</item>
+        <item>Skyline GTR R34</item>
+        <item>Toyota Corolla</item>
+        <item>Toyota Corona</item>
+        <item>Toyota Prado</item>
+        <item>Toyota Premio</item>
+        <item>Toyota Prius</item>
+        <item>Chevrolet Corvette</item>
+        <item>Alfa Romeo Giulia</item>
+        <item>Alfa Romeo Stelvio</item>
+        <item>Bugatti Chiron</item>
+        <item>Bugatti Divo</item>
+        <item>Ferrari F8 Tributo</item>
+        <item>Ferrari Roma</item>
+        <item>Honda Civic</item>
+        <item>Porsche Cayman</item>
+        <item>Range Rover</item>
+        <item>Porsche Panamera</item>
+        <item>Subaru Forester</item>
+        <item>Subaru WRX</item>
+
+
+    </string-array>
+
+</resources>

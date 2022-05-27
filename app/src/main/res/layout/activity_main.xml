@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woody"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:elevation="5dp"
+        android:ellipsize="none"
+        android:onClick="goToFirstDestination"
+        android:text="@string/identify_car_make"
+        app:backgroundTint="#130707"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="215dp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/buttonTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:elevation="5dp"
+        android:onClick="goToSecondDestination"
+        android:text="@string/hints"
+        app:backgroundTint="#130707"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="308dp"
+        tools:targetApi="lollipop" />
+
+
+    <Button
+        android:id="@+id/buttonThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="271dp"
+        android:elevation="5dp"
+        android:onClick="goToThirdDestination"
+        android:text="@string/identify_car_image"
+        app:backgroundTint="#150707"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="387dp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/buttonFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="352dp"
+        android:elevation="5dp"
+        android:onClick="goToFourthDestination"
+        android:text="@string/advanced_level"
+        app:backgroundTint="#120606"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="489dp"
+        tools:targetApi="lollipop" />
+
+</RelativeLayout>

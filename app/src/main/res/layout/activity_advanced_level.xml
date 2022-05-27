@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvancedLevel">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/wp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:id="@+id/Result"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="34dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        <TextView
+            android:id="@+id/Points"
+            android:layout_width="133dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="153dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="230dp"
+            android:layout_height="135dp"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginStart="75dp"
+            android:layout_marginBottom="309dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editOne"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="467dp"
+            android:gravity="center"
+            android:hint="@string/enter_answer" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="230dp"
+            android:layout_height="135dp"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginBottom="101dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTwo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="260dp"
+            android:gravity="center"
+            android:hint="@string/enter_answer" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="230dp"
+            android:layout_height="135dp"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginBottom="524dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editThree"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="53dp"
+            android:gravity="center"
+            android:hint="@string/enter_answer" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="681dp"
+            android:elevation="5dp"
+            android:onClick="getToHomePage"
+            android:text="@string/back"
+            app:backgroundTint="#130707"
+            tools:ignore="MissingConstraints,RtlHardcoded"
+            tools:targetApi="lollipop" />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="2dp"
+            android:elevation="5dp"
+            android:onClick="submitButton"
+            android:text="@string/submit"
+            app:backgroundTint="#130707"
+            tools:targetApi="lollipop" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
